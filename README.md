@@ -5,7 +5,7 @@ number displays the actual number of the current line. It is useful to know wher
 syntax, ai and si are generally set by default, but are often automatically desabled when you set a .vimrc file.
 
 nohlsearch prevents Vim from highlighting the patterns you search to then keep the highlight untill the end of times.
-incsearch, though, hilights the pattern while you tipe it. Nice.
+incsearch, though, hilights the pattern while you type it. Nice.
 
 scrolloff prevents the cursor from getting to the very top or bottom of the screen, so that you can always see what's
 above or under it.
