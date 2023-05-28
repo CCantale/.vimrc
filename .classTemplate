@@ -1,0 +1,15 @@
+#ifndef ClassName_HPP
+# define ClassName_HPP
+
+class ClassName
+{
+	public:
+			ClassName(void);
+			~ClassName(void);
+			ClassName(ClassName &toCopy);
+		ClassName	&operator=(ClassName &toCopy);
+
+	private:
+};
+
+#endif
