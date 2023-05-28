@@ -32,4 +32,4 @@ set scrolloff=8
 set path+=**
 set wildmenu
 
-nmap ,,, diw:read $HOME/.vimclass<CR>:,+10s/ClassName/<C-r>"/g<CR>10kdd0wwgUwjw.8j
+nmap ,,, diw:read $HOME/.classTemplate<CR>:,+10s/ClassName/<C-r>"/g<CR>10kdd0wwgUwjw.8j
