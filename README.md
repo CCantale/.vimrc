@@ -1,3 +1,6 @@
+# In short
+<code>nocompatible</code> tells Vim that it's ok to not behave like Vi for compatibility reasons, since it's 2023 and Vi is just a character in League of Legends.
+
 <code>relativenumber</code> shows the distance from the current line. It is useful to quickly jump from line to line using j/k + nbr.
 
 <code>number</code> displays the actual number of the current line. It is useful to know where the float you are.
