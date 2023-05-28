@@ -23,7 +23,7 @@ notice when you are being a little bit too verbose.
 
 <code>wildmenu</code> makes a nice horizontal menu appear while you TAB through autocompletion options in the command bar.
 
-<code>nmap ,,, diw:read $HOME/.vimclass\<CR>:,+10s/ClassName/\<C-r>"/g\<CR>10kdd0wwgUwjw.8j</code> uhm...
+<code>nmap ,,, diw:read $HOME/.classTemplate\<CR>:,+10s/ClassName/\<C-r>"/g\<CR>10kdd0wwgUwjw.8j</code> uhm...
 
 Ok, this looks scary, but essentially what it does is it creates a c++ class snippet, using the word I'm currently on with my cursor as class name.
   
@@ -31,7 +31,7 @@ More in detail, it remaps the triple comma input (anytime I type ",,," in normal
   
 -  <code>diw</code> delete and copy the word I currently have my cursor on
   
--  <code>:read $HOME/.vimclass\<CR></code> paste the whole content the $HOME/.vimclass file starting from the cursor (same file as the one in this repo)
+-  <code>:read $HOME/.classTemplate\<CR></code> paste the whole content the $HOME/.vimclass file starting from the cursor (same file as the one in this repo)
     
 -  <code>:,+10s/ClassName/\<C-r>"/g\<CR></code> change every occurrence of "ClassName", from here to the next 10 lines, with the word saved at the beginning
     
