@@ -25,7 +25,7 @@ notice when you are being a little bit too verbose.
 
 <code>nmap ,,, diw:read $HOME/.classTemplate\<CR>:,+10s/ClassName/\<C-r>"/g\<CR>10kdd0wwgUwjw.8j</code> uhm...
 
-Ok, this looks scary, but essentially what it does is it creates a c++ class template, using the word I'm currently on with my cursor as class name.
+Ok, this looks scary, but essentially what it does is it writes a C++ class declaration following a template and using the word I'm currently on with my cursor as class name.
   
 More in detail, it remaps the triple comma input (anytime I type ",,," in normal mode) to:
   
